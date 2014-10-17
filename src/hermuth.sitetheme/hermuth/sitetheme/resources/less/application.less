@@ -58,6 +58,10 @@
     top: -21rem;
     z-index: 0;
   }
+  .linkborder {
+      border: 2px solid @grey; 
+      padding: 1rem;    
+    }
 }
 
 .documentFirstHeading {
@@ -72,6 +76,17 @@
   font-size: 2rem;
   margin-top: -15rem;
   margin-bottom: 5rem;
+      #content {
+       padding-right: 5rem;     
+    }
+}
+
+@media (min-width: 981px) {
+  .app-content-body {
+    #content {
+       padding-right: 30rem;     
+    }
+  }
 }
 
 .section-leistungen {
@@ -79,33 +94,43 @@
     font-style: italic;
     p {
       padding-left: 20rem;
-      padding-right: 10rem;       
+      margin-top: -7rem;
+     // padding-right: 10rem;       
     }
     h2 {
       padding-left: 20rem;
-      padding-right: 10rem;       
+     // padding-right: 10rem;       
     }
   }
-
+  .documentDescription {
+    margin-bottom: 6rem;
+  }
   #eins {
-      background:url(../../img/eins.png) 0 15% no-repeat transparent;
+      background:url(../../img/eins.png) 6% 15% no-repeat transparent;
+      height: 11rem;
   }
   #zwei {
-      background:url(../../img/zwei.png) 0 15% no-repeat transparent;
+      background:url(../../img/zwei.jpg) 6% 15% no-repeat transparent;
+      height: 11rem;
   }
   #drei {
-      background:url(../../img/drei.png) 0 15% no-repeat transparent;
+      background:url(../../img/drei.jpg) 6% 15% no-repeat transparent;
+      height: 11rem;
   }
   #vier {
-      background:url(../../img/vier.png) 0 15% no-repeat transparent;
+      background:url(../../img/vier.jpg) 6% 15% no-repeat transparent;
+      height: 11rem;
   }
   #fuenf {
-      background:url(../../img/fuenf.png) 0 15% no-repeat transparent;
+      background:url(../../img/fuenf.jpg) 6% 15% no-repeat transparent;
+      height: 11rem;
   }
   #sechs {
-      background:url(../../img/sechs.png) 0 15% no-repeat transparent;
+      background:url(../../img/sechs.png) 6% 15% no-repeat transparent;
+      height: 11rem;
   }
 }
+
 h2 {
   color: @darkblue;
 }
@@ -126,12 +151,14 @@ h2 {
       text-align: center;
       h1 {
         color: #fff;
+        font-size: 4rem;
       }
       p {
         color: #fff;
+        font-size: 2rem;
       }   
       #link {
-        width: 100%;
+        width: 85%;
         list-style: none;
         margin-right: 6rem;
         margin:auto;
@@ -140,7 +167,11 @@ h2 {
         text-shadow:none;
         text-decoration: none;
         color: @darkblue;
-                    img {
+        font-weight: bold;
+        .col-xs-4.col-md-2 {
+          padding-right: 0;
+        }
+            img {
               padding-right: 1rem;
             }
         margin-top: 5rem;
@@ -232,6 +263,14 @@ body {
   border: none;
   font-family: 'Alegreya Sans', sans-serif;
   color: @grey;
+  a {
+    color: @darkblue;
+    text-decoration: none;
+  }
+  a:hover {
+    color: @lightblue;
+    text-decoration: none;
+  }
 }
 
 #app-toolbar {
@@ -280,6 +319,43 @@ body {
   #teasertext #link {
     margin-bottom: 0;
   }
+.section-leistungen {
+  .app-content-body {
+    font-style: italic;
+    p {
+      padding-left: 1rem;
+      margin-top: -7rem;
+     // padding-right: 10rem;       
+    }
+    h2 {
+      padding-left: 7rem;
+      padding-top: 1rem;
+      margin-bottom: 3rem;
+     // padding-right: 10rem;       
+    }
+  }
+  .documentDescription {
+    margin-bottom: 6rem;
+  }
+  #eins {
+      background:none
+  }
+  #zwei {
+      background:none;
+  }
+  #drei {
+      background:none;
+  }
+  #vier {
+      background:none;
+  }
+  #fuenf {
+      background:none;
+  }
+  #sechs {
+      background:none;
+  }
+}
 }
 @media (max-width: 981px) {
   .app-brandbar {

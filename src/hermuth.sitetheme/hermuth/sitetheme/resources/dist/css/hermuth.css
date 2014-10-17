@@ -15200,6 +15200,12 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
     background: url(../../img/header.png) 50% 100% no-repeat transparent;
 }
+.section-front-page .linkborder
+{
+    padding: 1rem;
+
+    border: 2px solid #535353;
+}
 .documentFirstHeading
 {
     font-size: 5rem;
@@ -15217,43 +15223,69 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     margin-top: -15rem;
     margin-bottom: 5rem;
 }
+.app-content-body #content
+{
+    padding-right: 5rem;
+}
+@media (min-width: 981px)
+{
+    .app-content-body #content
+    {
+        padding-right: 30rem;
+    }
+}
 .section-leistungen .app-content-body
 {
     font-style: italic;
 }
 .section-leistungen .app-content-body p
 {
-    padding-right: 10rem;
+    margin-top: -7rem;
     padding-left: 20rem;
 }
 .section-leistungen .app-content-body h2
 {
-    padding-right: 10rem;
     padding-left: 20rem;
+}
+.section-leistungen .documentDescription
+{
+    margin-bottom: 6rem;
 }
 .section-leistungen #eins
 {
-    background: url(../../img/eins.png) 0 15% no-repeat transparent;
+    height: 11rem;
+
+    background: url(../../img/eins.png) 6% 15% no-repeat transparent;
 }
 .section-leistungen #zwei
 {
-    background: url(../../img/zwei.png) 0 15% no-repeat transparent;
+    height: 11rem;
+
+    background: url(../../img/zwei.jpg) 6% 15% no-repeat transparent;
 }
 .section-leistungen #drei
 {
-    background: url(../../img/drei.png) 0 15% no-repeat transparent;
+    height: 11rem;
+
+    background: url(../../img/drei.jpg) 6% 15% no-repeat transparent;
 }
 .section-leistungen #vier
 {
-    background: url(../../img/vier.png) 0 15% no-repeat transparent;
+    height: 11rem;
+
+    background: url(../../img/vier.jpg) 6% 15% no-repeat transparent;
 }
 .section-leistungen #fuenf
 {
-    background: url(../../img/fuenf.png) 0 15% no-repeat transparent;
+    height: 11rem;
+
+    background: url(../../img/fuenf.jpg) 6% 15% no-repeat transparent;
 }
 .section-leistungen #sechs
 {
-    background: url(../../img/sechs.png) 0 15% no-repeat transparent;
+    height: 11rem;
+
+    background: url(../../img/sechs.png) 6% 15% no-repeat transparent;
 }
 h2
 {
@@ -15284,15 +15316,21 @@ h2
 }
 #teasertext h1
 {
+    font-size: 4rem;
+
     color: #fff;
 }
 #teasertext p
 {
+    font-size: 2rem;
+
     color: #fff;
 }
 #teasertext #link
 {
-    width: 100%;
+    font-weight: bold;
+
+    width: 85%;
     margin: auto;
     margin-top: 5rem;
     margin-right: 6rem;
@@ -15311,6 +15349,10 @@ h2
   /* for Safari */
             background-clip: padding-box;
     text-shadow: none;
+}
+#teasertext #link .col-xs-4.col-md-2
+{
+    padding-right: 0;
 }
 #teasertext #link img
 {
@@ -15410,6 +15452,18 @@ body
     color: #535353;
     border: none;
 }
+body a
+{
+    text-decoration: none;
+
+    color: #312783;
+}
+body a:hover
+{
+    text-decoration: none;
+
+    color: #5194e2;
+}
 #app-toolbar
 {
     position: relative;
@@ -15467,6 +15521,49 @@ body
     #teasertext #link
     {
         margin-bottom: 0;
+    }
+    .section-leistungen .app-content-body
+    {
+        font-style: italic;
+    }
+    .section-leistungen .app-content-body p
+    {
+        margin-top: -7rem;
+        padding-left: 1rem;
+    }
+    .section-leistungen .app-content-body h2
+    {
+        margin-bottom: 3rem;
+        padding-top: 1rem;
+        padding-left: 7rem;
+    }
+    .section-leistungen .documentDescription
+    {
+        margin-bottom: 6rem;
+    }
+    .section-leistungen #eins
+    {
+        background: none;
+    }
+    .section-leistungen #zwei
+    {
+        background: none;
+    }
+    .section-leistungen #drei
+    {
+        background: none;
+    }
+    .section-leistungen #vier
+    {
+        background: none;
+    }
+    .section-leistungen #fuenf
+    {
+        background: none;
+    }
+    .section-leistungen #sechs
+    {
+        background: none;
     }
 }
 @media (max-width: 981px)
