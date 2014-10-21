@@ -15510,6 +15510,41 @@ body a:hover
 }
 @media (max-width: 361px)
 {
+    .app-brandbar #leistungen
+    {
+        font-family: 'Alegreya Sans', sans-serif;
+
+        margin-top: 5rem;
+        padding-right: 3em;
+        padding-left: 3rem;
+
+        color: #535353;
+        background: url(../../img/leistungen_icon.png) 3% 0 no-repeat transparent;
+        background-size: 20%;
+    }
+    .app-brandbar #leistungen h2
+    {
+        padding-left: 5rem;
+
+        color: #312783;
+    }
+    .app-brandbar #produkte
+    {
+        font-family: 'Alegreya Sans', sans-serif;
+
+        margin-top: 5rem;
+        padding-left: 3rem;
+
+        color: #535353;
+        background: url(../../img/produkte.png) 3% 0 no-repeat transparent;
+        background-size: 20%;
+    }
+    .app-brandbar #produkte h2
+    {
+        padding-left: 5rem;
+
+        color: #312783;
+    }
     #app-navbar ul
     {
         padding-top: 9rem;
@@ -15520,7 +15555,14 @@ body a:hover
     }
     #teasertext #link
     {
+        font-size: .8rem;
+
+        width: 100%;
         margin-bottom: 0;
+    }
+    #teasertext p
+    {
+        font-size: 1.6rem;
     }
     .section-leistungen .app-content-body
     {
@@ -15534,7 +15576,7 @@ body a:hover
     .section-leistungen .app-content-body h2
     {
         margin-bottom: 3rem;
-        padding-top: 1rem;
+        padding-top: 2rem;
         padding-left: 7rem;
     }
     .section-leistungen .documentDescription
@@ -15543,27 +15585,45 @@ body a:hover
     }
     .section-leistungen #eins
     {
-        background: none;
+        height: 11rem;
+
+        background: url(../../img/eins.png) 6% 15% no-repeat transparent;
+        background-size: 20%;
     }
     .section-leistungen #zwei
     {
-        background: none;
+        height: 11rem;
+
+        background: url(../../img/zwei.jpg) 6% 15% no-repeat transparent;
+        background-size: 20%;
     }
     .section-leistungen #drei
     {
-        background: none;
+        height: 11rem;
+
+        background: url(../../img/drei.jpg) 6% 15% no-repeat transparent;
+        background-size: 20%;
     }
     .section-leistungen #vier
     {
-        background: none;
+        height: 11rem;
+
+        background: url(../../img/vier.jpg) 6% 15% no-repeat transparent;
+        background-size: 20%;
     }
     .section-leistungen #fuenf
     {
-        background: none;
+        height: 11rem;
+
+        background: url(../../img/fuenf.jpg) 6% 15% no-repeat transparent;
+        background-size: 20%;
     }
     .section-leistungen #sechs
     {
-        background: none;
+        height: 11rem;
+
+        background: url(../../img/sechs.png) 6% 15% no-repeat transparent;
+        background-size: 20%;
     }
 }
 @media (max-width: 981px)
