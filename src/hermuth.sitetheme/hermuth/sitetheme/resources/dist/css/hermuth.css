@@ -235,9 +235,12 @@ th
 {
     padding: 0;
 }
+/*! Source: https://github.com/h5bp/html5-boilerplate/blob/master/src/css/main.css */
 @media print
 {
-    *
+    *,
+  *:before,
+  *:after
     {
         color: #000 !important;
         background: transparent !important;
@@ -2914,6 +2917,8 @@ table th[class*='col-']
 .table-responsive
 {
     overflow-x: auto;
+
+    min-height: 0;
 }
 @media screen and (max-width: 767px)
 {
@@ -15234,10 +15239,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
         padding-right: 30rem;
     }
 }
-.section-leistungen .app-content-body
-{
-    font-style: italic;
-}
 .section-leistungen .app-content-body p
 {
     margin-top: -7rem;
@@ -15316,13 +15317,13 @@ h2
 }
 #teasertext h1
 {
-    font-size: 4rem;
+    font-size: 5rem;
 
     color: #fff;
 }
 #teasertext p
 {
-    font-size: 2rem;
+    font-size: 2.4rem;
 
     color: #fff;
 }
@@ -15332,9 +15333,10 @@ h2
 
     width: 85%;
     margin: auto;
+    margin-top: 6rem;
     margin-top: 5rem;
     margin-right: 6rem;
-    margin-bottom: 14rem;
+    margin-bottom: 5rem;
     padding: 1.5rem;
 
     list-style: none;
@@ -15632,5 +15634,10 @@ body a:hover
     {
         margin-top: -15rem;
     }
+}
+.documentDescription
+{
+    font-size: 2.5rem;
+    font-weight: lighter;
 }
 /*# sourceMappingURL=hermuth.css.map */
