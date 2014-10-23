@@ -15288,6 +15288,10 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
     background: url(../../img/sechs.png) 6% 15% no-repeat transparent;
 }
+#content-core
+{
+    font-size: 1.7rem;
+}
 h2
 {
     color: #312783;

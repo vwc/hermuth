@@ -42,10 +42,12 @@
         <drop theme="/html/body/script" />
 
         <!-- Custom favicon implementation -->
+        <!--<drop css:content="head link[rel='apple-touch-icon']" />
+        <drop css:content="head link[rel='shortcut icon']" /> -->
         <drop content="link[@type='image/x-icon']" />
         <after theme="/html/head">
-            <link rel="shortcut icon" href="/++theme++hermuth.siteheme/img/favicon.ico" type="images/x-icon" />
-        </after>-->
+            <link rel="shortcut icon" href="/++theme++hermuth.sitetheme/img/favicon.ico" type="images/x-icon" />
+        </after>
 
         <!-- Copy over the id/class attributes on the body tag.
              This is important for per-section styling -->
